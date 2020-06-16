@@ -14,9 +14,9 @@ class UISample(QtWidgets.QMainWindow):
     def __init__(self, parent=None):
         super(UISample, self).__init__(parent)
 
-        self.ui = QUiLoader().load(os.path.join(CURRENT_PATH, 'test_buttons.ui'))
-        self.widget1 = QUiLoader().load(os.path.join(CURRENT_PATH, 'test2.ui'))
-        self.widget2 = QUiLoader().load(os.path.join(CURRENT_PATH, 'page3_main.ui'))
+        self.ui = QUiLoader().load(os.path.join(CURRENT_PATH, 'ui', 'test_buttons.ui'))
+        self.widget1 = QUiLoader().load(os.path.join(CURRENT_PATH, 'ui', 'test2.ui'))
+        self.widget2 = QUiLoader().load(os.path.join(CURRENT_PATH, 'ui', 'test.ui'))
         self.ui.scrollArea.setWidget(self.widget1)
         # self.ui.verticalLayout.addWidget(self.widget2)
         self.setCentralWidget(self.ui)
