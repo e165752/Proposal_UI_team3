@@ -1,0 +1,27 @@
+QPushButton#past_assignment, #past_assignment_2, #past_assignment_3{
+  color: #c03e4a;
+  background-color: transparent;
+  border-bottom: 2px solid;
+  border-color: #FFFFFF;
+}
+
+QPushButton#task1, #task2, #task3{
+  text-align: left;
+}
+
+QPushButton#submitted, #not_submitted, #not_submitted_2{
+  font-weight:bold;
+  background-color: transparent;
+}
+
+QPushButton#team1, #team2{
+  font-size: 17px;
+  font-weight:bold;
+  color: #7579bf;
+  background-color: transparent;
+}
+
+/* QPushButton#task1{
+  border: 2px solid;
+  border-color: #c03e4a;
+} */
