@@ -5,7 +5,7 @@ $ python3 main_page3.py
 ```
 
 ### .ui ファイル
-- `page3_main.ui`
+- `page3.ui`
 
 
 ## 画面切り替えテスト

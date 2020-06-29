@@ -14,27 +14,8 @@ class UISample(QtWidgets.QMainWindow):
     def __init__(self, parent=None):
         super(UISample, self).__init__(parent)
 
-        self.ui = QUiLoader().load(os.path.join(CURRENT_PATH, 'ui', 'page3_main.ui'))
-        self.widget1 = QUiLoader().load(os.path.join(CURRENT_PATH, 'ui', 'test2.ui'))
-        self.widget2 = QUiLoader().load(os.path.join(CURRENT_PATH, 'ui', 'test.ui'))
-        # self.ui.scrollArea.setWidget(self.widget1)
-        # self.ui.verticalLayout.addWidget(self.widget2)
+        self.ui = QUiLoader().load(os.path.join(CURRENT_PATH, 'page3.ui'))
         self.setCentralWidget(self.ui)
-    #     # Signal作成
-    #     self.ui.pushButton_1.clicked.connect(self.click_btn1)
-    #     self.ui.pushButton_2.clicked.connect(self.click_btn2)
-        
-    # def click_btn1(self):
-    #     # 押したときの動作
-    #     print("pushed1")
-    #     self.ui.scrollArea.takeWidget()
-    #     self.ui.scrollArea.setWidget(self.widget1)
-
-    # def click_btn2(self):
-    #     # 押したときの動作
-    #     print("pushed2")
-    #     self.ui.scrollArea.takeWidget()
-    #     self.ui.scrollArea.setWidget(self.widget2)
 
 
 if __name__ == '__main__':
