@@ -5,11 +5,14 @@ QPushButton#past_assignment, #past_assignment_2, #past_assignment_3{
   border-color: #FFFFFF;
 }
 
-QPushButton#task1, #task2, #task3{
+QPushButton#task1, #task2, #task3, #task4{
   text-align: left;
+  background-color: #3F3F3F;
+  border-radius: 6;
+  padding: 13px;
 }
 
-QPushButton#submitted, #not_submitted, #not_submitted_2{
+QPushButton#submitted, #submitted_2, #not_submitted, #not_submitted_2{
   font-weight:bold;
   background-color: transparent;
 }
@@ -21,7 +24,8 @@ QPushButton#team1, #team2{
   background-color: transparent;
 }
 
-/* QPushButton#task1{
-  border: 2px solid;
-  border-color: #c03e4a;
-} */
+QPushButton#sort{
+  background-color: #3F3F3F;
+  border-radius: 3;
+  padding: 3px;
+}
