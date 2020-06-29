@@ -3,7 +3,6 @@
 ```
 $ python3 main_page3.py
 ```
-
 ### .ui ファイル
 - `page3.ui`
 
@@ -13,3 +12,11 @@ $ python3 main_page3.py
 ```
 $ python3 example_exchange_widget.py
 ```
+
+## その他コマンドメモ
+- QtDesigner
+  ```
+  $ pyside2-designer 【.uiファイル】
+  ```
+
+

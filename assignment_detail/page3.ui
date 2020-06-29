@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>745</width>
-    <height>563</height>
+    <width>721</width>
+    <height>654</height>
    </rect>
   </property>
   <property name="palette">
@@ -1014,7 +1014,7 @@ border-radius: 5;</string>
   </action>
  </widget>
  <resources>
-  <include location="icon/speak_icon.qrc"/>
+  <include location="icons/speak_icon.qrc"/>
  </resources>
  <connections/>
 </ui>
