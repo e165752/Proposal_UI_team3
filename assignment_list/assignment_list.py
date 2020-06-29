@@ -16,7 +16,7 @@ class AssignmentListUI(QtWidgets.QMainWindow):
 
         self.ui = QUiLoader().load(os.path.join(CURRENT_PATH, 'assignment_list.ui'))
         self.setCentralWidget(self.ui)
-        self.resize(900, 700)
+        self.resize(765, 710)
 
         # not_submitted = QPushButton("＞ 未提出 ( 2 )")
         # layout = QVBoxLayout()
@@ -34,9 +34,6 @@ class AssignmentListUI(QtWidgets.QMainWindow):
     def setCSS(self):
         with open("assignment_list.css","r") as f:
             self.setStyleSheet("".join(f.readlines()))
-
-    def click_not_submitted(self):
-        not_submitted.setText('∧ 未提出 ( 2 )')
 
 
     def click_btn(self):

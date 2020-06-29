@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>667</height>
+    <height>710</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,7 +19,7 @@
      <rect>
       <x>70</x>
       <y>100</y>
-      <width>551</width>
+      <width>531</width>
       <height>61</height>
      </rect>
     </property>
@@ -27,7 +27,8 @@
      <string notr="true"/>
     </property>
     <property name="text">
-     <string>ms teamsUI評価　期限 2020年5月25日 23:59　　　期限を経過</string>
+     <string>　ms teamsUI評価
+　期限 2020年5月25日 23:59　　　                                                           期限を経過</string>
     </property>
    </widget>
    <widget class="QPushButton" name="task2">
@@ -35,32 +36,39 @@
      <rect>
       <x>70</x>
       <y>170</y>
-      <width>551</width>
+      <width>531</width>
       <height>61</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
     <property name="text">
-     <string>UI実装の提出　期限 2020年6月29日 23:59</string>
+     <string>　UI実装の提出
+　期限 2020年6月29日 23:59</string>
     </property>
    </widget>
    <widget class="QPushButton" name="task3">
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>310</y>
-      <width>551</width>
+      <y>330</y>
+      <width>531</width>
       <height>61</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
     <property name="text">
-     <string>1/23 出席確認</string>
+     <string>　1/23 出席確認</string>
     </property>
    </widget>
    <widget class="QPushButton" name="past_assignment">
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>550</y>
+      <y>630</y>
       <width>181</width>
       <height>31</height>
      </rect>
@@ -70,6 +78,11 @@
       <horstretch>0</horstretch>
       <verstretch>0</verstretch>
      </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <underline>true</underline>
+     </font>
     </property>
     <property name="text">
      <string>過去の課題をさらに表示</string>
@@ -85,20 +98,20 @@
      </rect>
     </property>
     <property name="text">
-     <string>＞ 未提出 ( 2 )</string>
+     <string>▼ 未提出 ( 2 )</string>
     </property>
    </widget>
    <widget class="QPushButton" name="submitted">
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>270</y>
+      <y>290</y>
       <width>131</width>
       <height>41</height>
      </rect>
     </property>
     <property name="text">
-     <string>＞ 提出済み ( 1 )</string>
+     <string>▼ 提出済み ( 1 )</string>
     </property>
    </widget>
    <widget class="QPushButton" name="team1">
@@ -111,53 +124,43 @@
      </rect>
     </property>
     <property name="text">
-     <string>＞ UI/UX論</string>
+     <string>▼ UI/UX論</string>
     </property>
    </widget>
    <widget class="QPushButton" name="team2">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>410</y>
+      <y>440</y>
       <width>121</width>
       <height>41</height>
      </rect>
     </property>
     <property name="text">
-     <string>＞ PM演習</string>
+     <string>▼ PM演習</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="not_submitted_2">
+   <widget class="QPushButton" name="task4">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>450</y>
-      <width>121</width>
-      <height>41</height>
+      <x>70</x>
+      <y>560</y>
+      <width>531</width>
+      <height>61</height>
      </rect>
     </property>
-    <property name="text">
-     <string>＞ 提出済み ( 1 )</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="task3_2">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>490</y>
-      <width>561</width>
-      <height>51</height>
-     </rect>
+    <property name="styleSheet">
+     <string notr="true"/>
     </property>
     <property name="text">
-     <string>レポート1</string>
+     <string>　レポート1</string>
     </property>
    </widget>
    <widget class="QPushButton" name="past_assignment_2">
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>380</y>
+      <y>400</y>
       <width>181</width>
       <height>31</height>
      </rect>
@@ -167,6 +170,14 @@
       <horstretch>0</horstretch>
       <verstretch>0</verstretch>
      </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>過去の課題をさらに表示</string>
@@ -187,8 +198,103 @@
       <verstretch>0</verstretch>
      </sizepolicy>
     </property>
+    <property name="font">
+     <font>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
     <property name="text">
      <string>過去の課題をさらに表示</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sort">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>40</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>並べ替え ▼</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="not_submitted_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>480</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>▶︎ 未提出 ( 1 )</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="submitted_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>520</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>▼ 提出済み ( 1 )</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="icon">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>90</y>
+      <width>27</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image:url(&quot;icon.png&quot;);
+border: 0px;</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>348</y>
+      <width>24</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image:url(&quot;check.png&quot;);
+border: 0px;</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView_2">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>578</y>
+      <width>24</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image:url(&quot;check.png&quot;);
+border: 0px;</string>
     </property>
    </widget>
   </widget>
